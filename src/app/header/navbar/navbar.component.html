@@ -1,0 +1,15 @@
+
+<mat-toolbar>
+  <button mat-icon-button [matMenuTriggerFor]="menu" aria-label="Example icon-button with a menu">
+    <mat-icon>menu</mat-icon>
+    <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="router-link-active">{{myname}}</a>
+  </button>
+<mat-menu #menu="matMenu" class="menu">
+  <button mat-menu-item [routerLink]="['/home']" routerLinkActive="router-link-active">Home</button>
+  <button mat-menu-item [routerLink]="['/users']" routerLinkActive="router-link-active">Users</button>
+  <button mat-menu-item [routerLink]="['/contact']" routerLinkActive="router-link-active">Contact</button>
+</mat-menu>
+  <span class="example-spacer"></span>
+
+  <app-nav></app-nav>
+</mat-toolbar>

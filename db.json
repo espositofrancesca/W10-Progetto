@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "email": "m.rossi@example.com",
+      "password": "$2a$10$fTEikh4JdcsHdFbKpEf2wOWR/FITmnrh3WFWOVJobK0uBYV6MIOHy",
+      "firstname": "Mario",
+      "lastname": "Rossi",
+      "id": 1
+    },
+    {
+      "email": "espositofrancesca@me.com",
+      "password": "$2a$10$o/TJRQ46k.RfjFvozgM.Uu63mCGyLEVtMyKRA9JM4mlMeEDNVqyLO",
+      "firstname": "Francesca",
+      "lastname": "Esposito",
+      "id": 2
+    },
+    {
+      "email": "pippo@pluto.it",
+      "password": "$2a$10$uQ9DEWyuFDiznerxZrWG8.53Nz9jhLdWDFeaGuSPsq8uEAU9pLuOe",
+      "firstname": "Pippo",
+      "lastname": "Pluto",
+      "id": 3
+    }
+  ]
+}

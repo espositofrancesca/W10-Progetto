@@ -1,0 +1,15 @@
+
+<div class="bg">
+  <div class="container">
+<h1>User List</h1>
+    <mat-card class="example-card">
+      <mat-card-header *ngFor="let s of data">
+        <div mat-card-avatar class="example-header-image" >
+          <img src="./../../../assets/image/user-svgrepo-com.svg" alt="">
+        </div>
+        <mat-card-title> {{s.firstname}} {{s.lastname}}</mat-card-title>
+        <mat-card-subtitle>{{s.email}}</mat-card-subtitle>
+      </mat-card-header>
+    </mat-card>
+  </div>
+</div>

@@ -1,0 +1,22 @@
+<div class="bg">
+  <div class="box-container">
+   <div class="container">
+      <h1 class="m-5 text-center">Login</h1>
+      <form #f="ngForm" (ngSubmit)="onSubmit()">
+        <mat-form-field appearance="fill">
+          <mat-label for="email" class="form-label">Enter your email</mat-label>
+          <input matInput type="email" ngModel name="email" class="form-control" id="email">
+        </mat-form-field> <br>
+        <mat-form-field appearance="fill">
+          <mat-label for="password" class="form-label">Enter your password</mat-label>
+          <input matInput type="password" ngModel name="password" class="form-control" id="password">
+        </mat-form-field>
+        <p>or<a href="" [routerLink]="['/signup']" routerLinkActive="router-link-active">register now!</a></p>
+        <button type="submit" mat-stroked-button color="accent">Accedi</button>
+      </form>
+      <div class="alert alert-danger" role="alert" *ngIf="error">
+        {{error}}
+      </div>
+   </div>
+  </div>
+</div>
